@@ -1,22 +1,21 @@
-# Unscented Kalman Filter Project Starter Code
+# Unscented Kalman Filter
 Self-Driving Car Engineer Nanodegree Program
 
 ---
 
 ## Dependencies
 
-* cmake >= v3.5
-* make >= v4.1
-* gcc/g++ >= v5.4
+using Clion as IDE, dependeccies as described in CMakelists.
+Using system Eigen(should already be there for most linux distribution. OSx could use brew install eigen to install it)
 
-## Basic Build Instructions
+## Build and Run
 
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
-4. Run it: `./UnscentedKF path/to/input.txt path/to/output.txt`. You can find
+4. Run it: `./UKF path/to/input.txt path/to/output.txt`. You can find
    some sample inputs in 'data/'.
-    - eg. `./UnscentedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt`
+    - eg. `./UKF ../data/sample-laser-radar-measurement-data-1.txt output.txt`
 
 ## Editor Settings
 
